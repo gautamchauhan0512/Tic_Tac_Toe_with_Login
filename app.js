@@ -60,5 +60,5 @@ app.post('/login',async(req,res)=>{
 })
 
 app.listen('80',()=>{
-    console.log("server is rinning")
+    console.log("server is rinning on 80")
 })
