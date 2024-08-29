@@ -4,7 +4,6 @@ const path = require("path")
 const fs = require("fs")
 const bcrypt = require('bcrypt');
 
-
 const mongoose = require("mongoose");
 const { error } = require("console");
 mongoose.connect('mongodb://localhost/meeee')
